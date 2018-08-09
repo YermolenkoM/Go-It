@@ -1,0 +1,30 @@
+.header {
+    padding-top: 2.75rem;
+    margin-bottom: 7.5rem;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 4.9375rem;
+    height: 1.75rem;
+    background-image: url(../img/Logo.png);
+}
+.nav {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', SansSerif;
+    font-weight: 600;
+    font-size: 0.65625rem;
+    text-transform: uppercase;
+}
+.nav-item {
+    line-height: 0.65625rem;
+    color: var(--blackColor);
+}
+.nav-item:hover {
+    color: var(--goldenColor);
+}

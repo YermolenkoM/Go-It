@@ -1,0 +1,29 @@
+@import "fonts.css";
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: var(--blackColor);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.1875rem;
+}
+.sub-title {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: var(--greyColor);
+}
+:root {
+    --goldenColor: #fed136;
+    --blackColor: #222222;
+    --greyColor: #c0c0c0;
+}
